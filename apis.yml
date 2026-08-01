@@ -1,7 +1,25 @@
 aid: samunnati
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/samunnati.png
 name: Samunnati
-description: 'Samunnati is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Samunnati is an integrated agri-enterprise platform working to de-fragment India''s
+  agricultural value chain by connecting farmers, Farmer Producer Organizations (FPOs), and agri
+  enterprises. It combines financial solutions (lending to farmers, FPOs, and agri businesses), trade
+  facilitation and market linkages, and digital marketplaces (FPO Next, Trade Next, and input, output,
+  credit, and consumer marketplaces), alongside innovation, research, and foundation-led community work.
+  Operating across Chennai, Hyderabad, Bengaluru, Delhi, Mumbai, Kolkata, Jaipur, Odisha, Uttar Pradesh,
+  and Bihar, it positions itself as one of India''s largest agri enterprises. Samunnati runs several
+  customer-facing digital platforms but does not publish a public developer portal or API at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/samunnati/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,16 +29,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Agriculture
+- Agri Finance
+- Financial Services
+- Marketplace
+- India
+- FinTech
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/samunnati-domain-security.yml
 - type: Website
-  url: http://www.samunnati.com
+  url: https://www.samunnati.com
