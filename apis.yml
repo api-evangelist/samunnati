@@ -46,7 +46,7 @@ tags:
 - Consumer
 - Agriculture
 - Agri Finance
-- Financial-Services
+- Financial Services
 - Marketplace
 - India
 - Fintech
@@ -59,6 +59,7 @@ tags_raw:
 - Marketplace
 - India
 - FinTech
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
