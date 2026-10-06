@@ -40,7 +40,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Consumer
@@ -72,6 +72,10 @@ x-enrichment:
   artifacts_added: 1
   pass: local-v1
 common:
+- url: https://samunnati.com/category/others/
+  type: Blog
+- url: https://samunnati.com/category/others/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/samunnati-domain-security.yml
 - type: Website
